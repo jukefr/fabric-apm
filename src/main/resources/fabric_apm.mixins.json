@@ -1,12 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "org.jukefr.fabric_apm.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "server.MainMixin",
+    "server.MinecraftServerMixin",
+    "server.world.ThreadedAnvilChunkStorageMixin"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -29,6 +29,10 @@ dependencies {
 
 	// PSA: Some older mods, compiled on Loom 0.2.1, might have outdated Maven POMs.
 	// You may need to force-disable transitiveness on them.
+	modImplementation implementation(include("co.elastic.logging:ecs-logging-core:${project.log_version}"))
+	modImplementation implementation(include("co.elastic.logging:log4j2-ecs-layout:${project.log_version}"))
+	modImplementation implementation(include("co.elastic.apm:apm-agent-attach:${project.apm_version}"))
+	modImplementation implementation(include("co.elastic.apm:apm-agent-api:${project.apm_version}"))
 }
 
 processResources {
