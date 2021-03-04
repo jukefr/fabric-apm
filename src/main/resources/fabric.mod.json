@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "org.jukefr.fabric_apm.FabricAPM"
+      "fr.juke.fabric_apm.FabricAPM"
     ]
   },
   "mixins": [

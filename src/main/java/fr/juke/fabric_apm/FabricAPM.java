@@ -1,6 +1,5 @@
-package org.jukefr.fabric_apm;
+package fr.juke.fabric_apm;
 
-import co.elastic.apm.attach.ElasticApmAttacher;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;

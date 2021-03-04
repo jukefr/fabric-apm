@@ -1,10 +1,10 @@
-package org.jukefr.fabric_apm.mixin.server;
+package fr.juke.fabric_apm.mixin.server;
 
 import co.elastic.apm.api.ElasticApm;
 import co.elastic.apm.api.Transaction;
 import co.elastic.apm.attach.ElasticApmAttacher;
+import fr.juke.fabric_apm.FabricAPM;
 import net.minecraft.server.Main;
-import org.jukefr.fabric_apm.FabricAPM;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
